@@ -4,5 +4,32 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Menus/title.unity
+    guid: 0e638f8d3c58d724fa4a193f4d64f788
+  - enabled: 1
+    path: Assets/MainScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Aidan/choice0.unity
+    guid: c4efea9a6c40490469ff424d174c9899
+  - enabled: 1
+    path: Assets/Aidan/choice1.unity
+    guid: 66a2f4a657e1d424aa44923da39d98ea
+  - enabled: 1
+    path: Assets/Aidan/choice2.unity
+    guid: 73c67b509d3cddd4e8524cb59cb51b62
+  - enabled: 1
+    path: Assets/Aidan/choice3.unity
+    guid: db3fc81f4d902c34787aad5eb8f7e5e1
+  - enabled: 1
+    path: Assets/Aidan/choice4.unity
+    guid: 92f229a9d32d5f24c83267be853901fa
+  - enabled: 1
+    path: Assets/Aidan/choice5.unity
+    guid: 6e4086689d55637458e356c5b54414c7
+  - enabled: 1
+    path: Assets/Aidan/End.unity
+    guid: 61de3a27b559b534ca7a30c37a99ca1c
   m_configObjects: {}

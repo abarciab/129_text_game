@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414738, b: 0.121078536, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,1574 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &304558596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 304558597}
+  - component: {fileID: 304558599}
+  - component: {fileID: 304558598}
+  m_Layer: 5
+  m_Name: controls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &304558597
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304558596}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 587933337}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -313.535, y: -114}
+  m_SizeDelta: {x: 158.331, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &304558598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304558596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: W, A, S, D to move
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: d9c952fde30eb99469fc8b29e1cf8feb, type: 2}
+  m_sharedMaterial: {fileID: -4903461303436851361, guid: d9c952fde30eb99469fc8b29e1cf8feb, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 452984831
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.101960786}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 22
+  m_fontSizeBase: 22
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &304558599
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304558596}
+  m_CullTransparentMesh: 1
+--- !u!1 &438087741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 438087742}
+  - component: {fileID: 438087744}
+  - component: {fileID: 438087743}
+  m_Layer: 5
+  m_Name: ChosenResponse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &438087742
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438087741}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1302072158}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 106.273926, y: 131}
+  m_SizeDelta: {x: 510.2452, y: 40.2145}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &438087743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438087741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Call someone over to help them
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: d9c952fde30eb99469fc8b29e1cf8feb, type: 2}
+  m_sharedMaterial: {fileID: -4903461303436851361, guid: d9c952fde30eb99469fc8b29e1cf8feb, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 1325400063
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.30588236}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 19
+  m_fontSizeBase: 19
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18.14
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 4
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -1.6143188, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &438087744
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438087741}
+  m_CullTransparentMesh: 1
+--- !u!1 &587933332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 587933337}
+  - component: {fileID: 587933336}
+  - component: {fileID: 587933335}
+  - component: {fileID: 587933334}
+  - component: {fileID: 587933333}
+  - component: {fileID: 587933338}
+  - component: {fileID: 587933339}
+  m_Layer: 5
+  m_Name: TextDisplay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &587933333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587933332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 606727651e83bc5498b4b1e04060bc0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  introText: {fileID: 681593513}
+  mainText: {fileID: 687820809}
+  prompt: {fileID: 1540507483}
+  decodedPrompt: {fileID: 1344657493}
+  chosenResponse: {fileID: 438087743}
+  gameplayPrompt: {fileID: 1669810255}
+  textParent: {fileID: 1302072157}
+  nextEventButton: {fileID: 1237182578}
+  promptButton: {fileID: 1206415586}
+  textSFX: {fileID: 587933338}
+  promptAppearSFX: {fileID: 587933339}
+  textSpeed: 0.05
+  storyEvents:
+  - chapters:
+    - chapterID: 0
+      intro:
+      - Welcome to The Vulture!
+      - 'This is a semi-linear branching narrative about miscommunication and interpretation.
+        Here''s how it works:'
+      - First, you'll see some context about the situation you're in, written clearly.
+        Then, there will be a statement that requires a response, and you'll get
+        to chose from one of two options. Unfortunatly for you, this statement isn't
+        written in a language you can understand, so you'll have to use the context
+        and given responses to guess at what you might be responding to.
+      - 'For example:'
+      prompt: You're handed a slice of chocolate cake
+      isFinal: 0
+      option1: Slap it to the ground
+      option1Dest: 1
+      option2: Eat it eagerly
+      option2Dest: 1
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 1
+      intro:
+      - Once you made your choice, the statement is revealed to you, then the consequences
+        of your actions will play out.
+      - 'content warnings: mentions of war and violence. enjoy!'
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+  - chapters:
+    - chapterID: 0
+      intro:
+      - "You\u2019ve lived on this ship for 13 years. Today\u2019s the anniversary
+        of your contract signing, not that it means anything... You\u2019ve still
+        got to wake up just the same and do the same job you do everyday. Still,
+        it\u2019s a milestone..."
+      - "The ruins you\u2019re going to scrap today are from a battle between the
+        Zornians and the Republic, so in addition to the normal dangers of zero-friction
+        welding, you\u2019ll have to worry about Zorn bugs and decayed sigils. It\u2019s
+        time to head out and hear the brief from Zanik about the day and see what
+        you\u2019ll be tasked with. Your last little respite before heading out into
+        the darkness for another 36 hour shift."
+      prompt: "\u201Cdon\u2019t tell Zanik!\u201D Jan whispers at you as you watch
+        a six legged reptilian with bat wings scamper across the hallway."
+      isFinal: 0
+      option1: step carefully around the creature
+      option1Dest: 1
+      option2: ' Call for Zanik to help'
+      option2Dest: 2
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 1
+      intro:
+      - "Your crewmate Jan shoots you a grateful look as you take care not to step
+        on her \u2018pet\u2019. \u201CThank you! I'm so sorry he got out, it won\u2019t
+        happen again\u201D."
+      - "Jan has a habit of keeping odd creatures and plants in her room, carefully
+        hidden away if Zanik or the maintenance bots ever come to inspect, but you\u2019ve
+        always found these little secrets kind of charming. It\u2019s a welcome respite
+        from the mundane nature of this job. "
+      prompt: "You realize you\u2019re late, and must head into the main room for
+        the briefing from Zanik."
+      isFinal: 0
+      option1: March forward, head high and proud
+      option1Dest: 3
+      option2: Slink your way into the room
+      option2Dest: 4
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 2
+      intro:
+      - Whether or not you hear the whisper, you scream to attention the alien lifeform
+        scampering through the hallways, which quickly notifies the nearest Lieutenant
+        Commander, which happens to be Zanik on his way to the briefing. Zanik runs
+        in shortly after your scream and spots the alien lifeform, now crawling over
+        a nearby control panel.
+      - "\u201CAha! I had a sneaking suspicion that there were some illegal \u201Cpets\u201D
+        on this ship.\u201D\r\nZanik calls over some V-droids that take away the
+        alien lifeform. As the V-droids pass by, Jan bumps into you forcefully, but
+        keeps walking past. You have a feeling Jan isn\u2019t too happy with you\u2026\r\n"
+      prompt: "Zanik approaches you, \u201CThank you for doing your part in keeping
+        this ship clean, do you have any information on where this creature came
+        from?\u201D"
+      isFinal: 0
+      option1: Stay put and answer to Zanik
+      option1Dest: 5
+      option2: Try to walk away to the meeting
+      option2Dest: 6
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 3
+      intro:
+      - You stride your way into the meeting room and find your way to a spot to
+        hear the rest of the meeting. Zanik notices your lateness.
+      - "\u201CI would like to say to everyone here that I do not accept lateness
+        to any briefings and I expect you all to follow instructions whether or not
+        you are on time to hear them. Now where was I?\u201D\r. The surrounding crewmates
+        all look at you, you notice some glares, but you are the only one to notice
+        Jan running into the room, who gives you a quick smile before listening in
+        on the meeting.\r\n"
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 4
+      intro:
+      - "You slink into the meeting room, making sure that you aren\u2019t noticed
+        by Zanik who is currently halfway through the briefing. You make your way
+        to your place without drawing any attention, Jan on the other hand has no
+        such luck as she tries to sneak in right as Zanik looks over towards her.\r\n"
+      - "\u201CJan, thank you for taking time out of your day to join us for the
+        briefing. We were just talking about who was going to clean the entire landing
+        dock by 13:00. Thank you for volunteering your time. Now where was I?\u201D"
+      - Jan looks exhausted and embarrassed, but she hides a smile when she glances
+        over at you.
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 5
+      intro:
+      - You acknowledge Zanik and give him all the information that you know, despite
+        being told in confidence by Jan about the matter.
+      - "\u201CAh I see. Thank you for your honesty. Nothing too bad will happen
+        to your crewmate. We just need to drill some sense into them and maybe visit
+        their quarters. Now let's both head over to the briefing for today.\u201D"
+      - You follow Zanik to the meeting and stand in the front row as you listen
+        to the briefing.
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 6
+      intro:
+      - You acknowledge Zanik, mumble something about the briefing and turn around
+        to head towards the briefing room.
+      - "\u201CAh yes right. Well, you are ordered to come to my office later today
+        to inform me of everything you know. For now, we shall head to the briefing
+        room.\u201D\r\n"
+      - Zanik says something to the V-droids and leads the way to the briefing as
+        you follow in his footsteps.
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+  - chapters:
+    - chapterID: 0
+      intro:
+      - After the briefing, everyone heads off to finish any remaining tasks or chores
+        they can think of before heading off to the mess hall, and ultimately taking
+        off to their individual missions. On your way back to your quarters, you
+        see your neighboring crewmate Verne just heading into their room. As you
+        pass them by, they give you an acknowledging nod and you both go your separate
+        ways to get prepared for the next mission.
+      - You spend a while packing up everything you might need and just as you finish
+        and are about to head off to the mess hall, you hear a knock on the door
+        to your quarters. You open the door and are greeted by Verne, whose eyes
+        are looking past you, and looks more shaken than when you had just seen them
+        moments ago.
+      prompt: "Verne mutters a bit before admitting, \u201CI came to warn you that
+        you are going to find yourself in great danger sooner than you think.\u201D"
+      isFinal: 0
+      option1: Call someone over to help them
+      option1Dest: 1
+      option2: Take Verne back to their room
+      option2Dest: 2
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 1
+      intro:
+      - When you shout out into the hallway for help, Verne becomes panicked and
+        rushes back into their room, closing the door behind them quickly. You are
+        able to get a glimpse of their room as the door shuts, and witness the destructive
+        state of their quarters, belongings thrown around the room as if someone
+        ransacked the quarters just moments ago.
+      - "Two V-droids shortly arrive and find you taken aback in front of Verne\u2019s
+        quarters. They find their way between you and the door and enter. You hear
+        screaming and clanging noise, most likely the sounds of a struggle before
+        they carry Verne out between the two of them. But as they are taken away,
+        a note drops out of their pocket and you can\u2019t help but to pick it up."
+      prompt: "\u201COnce you find the Vessel, let our agent know and we will find
+        a way to get you all out of there\u201D"
+      isFinal: 0
+      option1: "\u201CWhat is the Vessel?\u201D"
+      option1Dest: 3
+      option2: "\u201CWho is the agent?\u201D"
+      option2Dest: 4
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 2
+      intro:
+      - "You look around the hallway and take Verne back to their room, as you open
+        the door, you find Verne\u2019s quarters in complete disarray, belongings
+        and clothes strewn about the room, as if Verne had a panic attack."
+      - You disregard that for the moment and lay them down on their bed so that
+        they can get some rest and you can examine them. Before you can speak, Verne
+        grabs you by your shoulders.
+      prompt: "\u201CNo, I am too far gone to be saved. You on the other hand, you
+        still have time, a chance to escape this life.\u201D"
+      isFinal: 0
+      option1: "\u201CIs this about the war?\u201D"
+      option1Dest: 5
+      option2: Look for any clues
+      option2Dest: 6
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 3
+      intro:
+      - "You are caught off guard when the note mentions \u201CVessel\u201D. That
+        could have multiple meanings. Are they talking about a physical vessel that
+        contains secrets that the Zornians have under their protection? Or are they
+        talking about a metaphorical vessel such as a person or object that is used
+        to carry something? Those thoughts hang in your mind as you shake yourself
+        and walk to the mess hall."
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 4
+      intro:
+      - "You think for a second on what that could mean when you realize someone
+        might have stowed away on the ship and is hiding among everyone else. Was
+        it Verne? They were really nice to have conversations with in the mornings
+        occasionally, but you couldn\u2019t fathom them being an agent for another
+        faction. Maybe there are more agents out on the ship somewhere. You can\u2019t
+        help but think about that as you go to the mess hall."
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 5
+      intro:
+      - "\u201CYou are free to make your own decision, but know that there is a right
+        and a wrong choice. And I am here to make sure you make the right one.\u201D"
+      - None of this sounds like the Verne you know. This Verne is too wild, not
+        the calm and collected one that you are used to talking to in the mornings
+        on occasion. Verne pushes themselves away from you and begins to calm down.
+      - "\u201CI\u2019m so sorry, I didn\u2019t mean to get you mixed up in this.
+        I was just rambling. I have to get packed for my mission so if you could
+        please excuse yourself I would greatly appreciate that.\u201D\r\nYou hesitantly
+        leave, not from Verne\u2019s request but from the situation as a whole, and
+        slowly head off to the mess hall to recuperate.\r\n"
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 6
+      intro:
+      - "You push yourself away from Verne\u2019s grasp and scan around the room
+        for any meaning as to why Verne is acting like this. You look into the closet,
+        empty of its contents, the desk with everything on it smashed on the ground,
+        and the bed upturned. You\u2019re not sure what any of this means but it
+        doesn\u2019t bode well for Verne\u2019s sanity."
+      - "You think that whatever happened to Verne, they went truly insane. You look
+        over to see Verne huddled in the corner muttering to themself, and decide
+        to leave them alone. As you leave their room, Verne doesn\u2019t stop you
+        and you head back to the mess hall, stopping on the way to get help for Verne."
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+  - chapters:
+    - chapterID: 0
+      intro:
+      - "After filling up on food from the mess hall and gathering your things from
+        your quarters, you head off to your ship to prepare for your salvaging mission.
+        You head over to your ship and pass by Echo, a fellow crewmate one rank above
+        you who will be teaming up with you for this mission.\r\n\u201CYou ready
+        to get back out there? I\u2019ve been itching to get back and weave through
+        all of those asteroids and remains.\u201D\r\n"
+      - Echo gives you a strong clap on the back before returning back to her ship
+        and examining all of the working parts to make sure they are all in order.
+        Roark, one of the mechanics that works on the scavengers comes up to you
+        trying to get your attention.
+      prompt: "\u201CHey bud, you got something going on with you comms that I need
+        to fix before you head off.\u201D"
+      isFinal: 0
+      option1: Look at what Roark is trying to show you
+      option1Dest: 1
+      option2: "Is something wrong with Echo\u2019s ship?"
+      option2Dest: 2
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 1
+      intro:
+      - Roark brings you over to his mechanics station and points at the screen with
+        an assortment of words and images that create more questions than answers.
+      - "\u201CHey you\u2019re looking at the wrong thing. Look, your comms aren\u2019t
+        working right now so I\u2019m going to have to fix them before I get you
+        out there.\u201D"
+      - "At that moment, you both hear Echo yelling.\n\u201CAh fuck it\u2019s happening
+        again? I thought I fixed that up!\u201D\nRoark looks over, sees smoke coming
+        out of Echo\u2019s engine and sighs."
+      prompt: "\u201CEcho needs to stop messing around and focus, I\u2019ll report
+        her If I have to.\u201D"
+      isFinal: 0
+      option1: Vouch for Echo
+      option1Dest: 3
+      option2: Call over a V-Droid
+      option2Dest: 4
+      deleteLast: 1
+      deleteSecondToLast: 0
+    - chapterID: 2
+      intro:
+      - You look over to Echo and see smoke coming from their ship. Roark sees this
+        at the same time and heads over to stop Echo before they get into the vehicle.
+      - "\u201CHey woah woah woah, Echo your engine is busted, what did you do to
+        it?\u201D"
+      - Echo hears this and spins around.
+      - "\u201CWhat do you mean what did I- Ah fuck it\u2019s happening again? I
+        thought I fixed that up.\u201D\r\nAt that Roark starts to fume and begins
+        shouting at Echo to start informing the mechanics when their ship is malfunctioning
+        instead of trying to fix it with her own mechanical skills. After the lecture,
+        Echo comes up to you.\r\n"
+      prompt: "\u201CLooks like I won\u2019t be able to join you on the mission,
+        I\u2019ll make sure to check in with your comms and help guide you.\u201D"
+      isFinal: 0
+      option1: "\u201CAre you sure?\u201D"
+      option1Dest: 5
+      option2: Talk to Roark
+      option2Dest: 6
+      deleteLast: 0
+      deleteSecondToLast: 1
+    - chapterID: 3
+      intro:
+      - "\u201CYeah I get it, she\u2019s really good at her job, but for her rank,
+        she\u2019s got to act more professional than what she\u2019s been acting
+        like.\u201D\r\nRoark chuckles to himself.\r"
+      - "\u201CWow I really sounded like Zanik there for a second. I gotta stop doing
+        that. Whatever, Echo gets a pass this time. I\u2019m just tired of dealing
+        with all the problems that Echo aggravates.\u201D\r\nRoark helps you get
+        all fixed and ready to go out on your, now solo, mission.\r\n"
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 4
+      intro:
+      - You call over a nearby V-Droid and point over to Echo who is yelling and
+        making a ruckus over by her ship. The droid hovers over towards Echo as Roark
+        rolls his eyes, muttering to himself.
+      - "\u201CWell, I\u2019ll get right on repairing your comms so you can get out
+        there shiny and new for your job.\u201D\r\nRoark begins working on your comms
+        while you both hear the one-sided argument from Echo and the V-Droid, sometimes
+        resulting in kicking and banging.\r\n"
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 5
+      intro:
+      - Echo crosses her arms
+      - "\u201CYeah I\u2019ll talk to the higher ups about it but I can vouch for
+        you and your abilities. You have been here for more than a couple of years
+        now, it\u2019s about time I stopped holding your hand.\u201D\r\nShe gives
+        you a wink and walks back over to Roark.\r\n"
+      - "\u201CGood luck out there pilot. Come on Roark you can\u2019t blame me for
+        trying.\u201D"
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 6
+      intro:
+      - 'Echo walks off to go talk with an officer about the situation with their
+        Scavenger after giving you an annoyed glance. '
+      - Roark turns around to look at you.
+      - "\u201CI don\u2019t have time anymore to fix your comm system. It\u2019ll
+        be fine. It\u2019s just your comms and I doubt the scavenger will completely
+        break while you're out there.\u201D"
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+  - chapters:
+    - chapterID: 0
+      intro:
+      - "A field of metal, rock, and destruction. That is what you find yourself
+        in after flying out solo for your mission. Scraps of both Zornian and Republic
+        ships float between the asteroid fields. You\u2019ve never gotten used to
+        this sight of death. "
+      - Even after 13 years, nothing can prepare you for what you find in the remains
+        of intense battles like this as a result of warfare. You take a moment to
+        concentrate before navigating through the field with your scavenger. Shortly
+        after, you hear Echo calling through the radio.
+      prompt: "\u201CThere should be a large mass of metal at these coordinates,
+        probably a large Republic wreckage. That\u2019s a gold mine of metal parts.\u201D"
+      isFinal: 0
+      option1: Investigate the coordinates
+      option1Dest: 1
+      option2: Head towards the largest asteroid
+      option2Dest: 2
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 1
+      intro:
+      - 'Putting in the coordinates, you drift off in that direction, looking through
+        the torn ships you pass. Eventually you see what lies at those coordinates:
+        A large wreckage of an assortment of ships, scattered just out of reach from
+        each other besides the massive ship in the middle.'
+      - "\u201CWow, ain\u2019t she a beauty,\u201D Echo sighs. \u201CI can never
+        get over the sight of scrapped metal just floating in space\u2026 I try not
+        to think too hard on how it got there.\u201D\r\nYou navigate your ship until
+        you get close enough to go the rest of the way in your spacesuit. You tie
+        yourself to the long cord and set out into the wreckage, welder in hand.\r\n"
+      - After floating through the destroyed hallways of the Republic ship, you find
+        the main communications room.
+      - You take a moment to admire the scene before you see a flickering hologram
+        figure in the room, replaying a message over and over again.
+      prompt: "\u201CThe Zornians have already destroyed all of the planets in the
+        gamma sector- I hope this message reaches you in time to warn you.\u201D"
+      isFinal: 0
+      option1: Show Echo the message
+      option1Dest: 3
+      option2: Mess with the console
+      option2Dest: 4
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 2
+      intro:
+      - "You get distracted from Echo\u2019s voice by the largest asteroid in view.
+        Not the rock itself but the metal square on the side of the asteroid. It
+        looks as if it\u2019s a small base that leads further into the asteroid.
+        You don\u2019t think you would have spotted it if the base hadn\u2019t rotated
+        into view just now. You head in the direction of the base, ignoring the directions
+        from Echo, until you reach the base: a small airlock that leads into a rectangular
+        room."
+      - "Before you know it, you\u2019ve already connected yourself to the cable
+        and floated out into the base through a crack in the wall. The small base
+        seems to mainly consist of a large meeting room in the center with documents
+        and writing. As you are investigating the room, you float past an open document
+        and read some of what it says."
+      prompt: "\u201CThe Republic has been the first line of defense against the
+        Zornians since their rise, and we will continue to stop their goal of universal
+        domination.\u201D"
+      isFinal: 0
+      option1: Read the document to Echo
+      option1Dest: 5
+      option2: Find more documents
+      option2Dest: 6
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 3
+      intro:
+      - "You repeat the message to Echo, who takes a moment to respond. \r\nWhat
+        is that supposed to mean, we\u2019ve destroyed all of the planets in the
+        gamma sector?\r\n\u201CI mean the message is pretty straight forward. What\u2019s
+        confusing about it?\u201D\r\n"
+      - "You are taken aback by Echo\u2019s response to that information. She has
+        always been passionate about her job, in a sort of weird way, but never did
+        you think this would be her reaction to planetary destruction, as if it was
+        a normal occurrence."
+      - "\u201CLook I can sense that this is a surprise to you, but I assure you,
+        the necessary measures were taken to make sure that the least amount of casualties
+        were taken as a result of those actions. Now let's get back to salvaging
+        metal scraps like we\u2019re supposed to do.\u201D\r\nSomehow, you can tell
+        Echo is lying about the amount of casualties resulting from the Zornian\u2019s
+        decisions\u2026\r\n"
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 4
+      intro:
+      - You mess with the console a bit, smacking it around a little until the flickering
+        hologram stops and the message continues.
+      - "\u201CA message from the Silver Prince. The Zornians have destroyed all
+        of the planets in the gamma sector. This is the sixth sector that they have
+        anihilated, and they don\u2019t seem interested in stopping anytime soon.
+        We lost contact with one of our agents as they went deep into the backlines.
+        Be wary of any Zornian ships that might be headed your way, they might know
+        your location already. I hope this message reaches you in time to warn you.\u201D\r\nThe
+        message then replays itself from the beginning again.\r\n"
+      - "You are taken aback by the information contained in this message. You can\u2019t
+        fathom that amount of death at the hands of the Zornians. What have you been
+        working towards?"
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 5
+      intro:
+      - "You read out loud the document to Echo, more so as a question because you
+        have never really listened too closely to what was happening between the
+        Zornians and the Republic. You don\u2019t remember \u201Cuniversal domination\u201D
+        being a goal for the Zornians. Right?"
+      - "\u201CUniversal domination is an extreme way of putting it. We are just
+        trying to unite everyone under one government so that it is easier to help
+        each other and share knowledge and resources between one another.\u201D\r\nYeah,
+        definitely\u2026\r\n"
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 6
+      intro:
+      - Finishing the first document, you pause to take it all in for a moment before
+        searching for more documents. Anything to provide insight on what you just
+        read.
+      - "\u201CIt all started with the assassination of the Silver Empress. We should
+        have known something was wrong from the moment the Zornians showed disdain
+        for the other neighboring nations and kingdoms. Their promises were too sweet
+        to be innocent. Too voracious to be anything but power hungry. It all fell
+        apart from there. One power move after the other until the Republic had to
+        retreat and recuperate under the guise of disbanding. Now, we are the only
+        ones who haven\u2019t already fallen prey to their bribes and promises of
+        unity. There is too much blood on Zornian hands to lay down and play dead
+        any longer.\u201D"
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+  - chapters:
+    - chapterID: 0
+      intro:
+      - After learning what you now know from this mission, you absent mindedly worked
+        on scavenging the metal parts of the ships around you for hours, their hulls
+        gaining more meaning and weight the more you thought about it. Echo occasionally
+        chimed in to make sure you were doing fine, making sure to express her envious
+        feelings about you being out here in the scavenger while she was stuck back
+        on the ship. But despite that, you were given some time to think about the
+        information you had recently gathered.
+      - "\u201CI can tell you are thinking about something right now. I may not know
+        everything of what you saw or heard but you can always come back and talk
+        to me about it back on the ship. We can talk through it and then laugh and
+        drink the thoughts away, what do you say?\u201D"
+      prompt: "\u201CYou\u2019ve made your choice\u2026\u201D"
+      isFinal: 0
+      option1: Head back to the ship
+      option1Dest: 1
+      option2: Abandon your old life
+      option2Dest: 2
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 1
+      intro:
+      - "After a lot of processing, you think you are finally beginning to understand
+        your place in everything. You tell Echo that you\u2019re ready to head back
+        and she lets out a sigh of relief.\r\n\u201CI\u2019m so glad you made the
+        right choice. You almost had me worried there for a moment. I thought I\u2019d
+        have to hunt you down or something. You did well.\u201D\r\n"
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 1
+      intro:
+      - "After a lot of processing, you think you are finally beginning to understand
+        your place in everything. You tell Echo that you have one more wreckage to
+        visit before heading back.\r\n\u201COkay. I better see you back before 13:00.
+        I\u2019ll be watching the comms.\u201D"
+      - "Who knows if that\u2019s the last time you\u2019ll ever talk to Echo. You\u2019re
+        not sure how attached to that you are anymore. What you are sure of is that
+        you have to be very careful not to be caught out there by the Zornians. Wouldn\u2019t
+        want to meet the same fate as those floating in the asteroid field."
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+  - chapters:
+    - chapterID: 0
+      intro:
+      - "After learning what you now know from this mission, you absent mindedly
+        worked on scavenging the metal parts of the ships around you for hours, their
+        hulls gaining more meaning and weight the more you thought about it. You
+        hadn\u2019t really noticed it right away but over time, Echo\u2019s messages
+        became less frequent, more jumbled and filled with static. Eventually it
+        all dissolved into static and you were left alone with your thoughts."
+      - "It\u2019s at this time that you almost miss the persistent ramblings of
+        Echo. Can you really go back to the ship and return to your normal lifestyle,
+        one that persisted through the 13 years on that ship, through the start of
+        the war between the Zornians and the Republic? The silence in the scavenger
+        really makes you feel isolated and alone, with only your wild thoughts to
+        keep you company."
+      prompt: "\u201CYou\u2019ve made your choice\u2026\u201D"
+      isFinal: 0
+      option1: Head back to the ship
+      option1Dest: 1
+      option2: Abandon your old life
+      option2Dest: 2
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 1
+      intro:
+      - After a lot of processing, you think you are finally beginning to understand
+        your place in everything. You are just a cog in the machine of the universe,
+        what power do you really have over what the Zornians and the Republic are
+        doing. As long as you choose the winning side in the end, does it really
+        matter what happens lightyears away from you?
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+    - chapterID: 1
+      intro:
+      - After a lot of processing, you think you are finally beginning to understand
+        your place in everything. You may not have the most control over what happens
+        in the universe or the universes that stretch beyond. But what you do have
+        control over are the choices you make to stand by your fellow lifeforms.
+        And you can no longer stand idle while countless lives are at stake.
+      prompt: 
+      isFinal: 1
+      option1: 
+      option1Dest: 0
+      option2: 
+      option2Dest: 0
+      deleteLast: 0
+      deleteSecondToLast: 0
+--- !u!114 &587933334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587933332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &587933335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587933332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &587933336
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587933332}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &587933337
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587933332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1669810253}
+  - {fileID: 304558597}
+  - {fileID: 1260721442}
+  - {fileID: 1302072158}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!82 &587933338
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587933332}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 96b67ef48f6e31d479df7b7a6808c7f0, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.074
+  m_Pitch: 1.37
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &587933339
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587933332}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: cb8d800e6002f5a468302b81f91da1ab, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.22
+  m_Pitch: 0.7
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &681593511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 681593512}
+  - component: {fileID: 681593514}
+  - component: {fileID: 681593513}
+  m_Layer: 5
+  m_Name: IntroText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &681593512
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681593511}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1302072158}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -8.6034, y: 33.346}
+  m_SizeDelta: {x: 606.793, y: 289.31}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &681593513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681593511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "You\u2019ve lived on this ship for 13 years. Today\u2019s the anniversary
+    of your contract signing, not that it means anything... You\u2019ve still got
+    to wake up just the same and do the same job you do everyday. Still, it\u2019s
+    a milestone... \r\n\nThe ruins you\u2019re going to scrap today are from a battle
+    between the Zornians and the republic, so in addition to the normal dangers of
+    zero-friction welding, you\u2019ll have to worry about zorn bugs and decayed
+    sigils. It\u2019s time to head out and hear the brief from Zanik about the day
+    and see what you\u2019ll be tasked with. Your last little respite before heading
+    out into the darkness for another 36 hour shift.\r\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: d9c952fde30eb99469fc8b29e1cf8feb, type: 2}
+  m_sharedMaterial: {fileID: -4903461303436851361, guid: d9c952fde30eb99469fc8b29e1cf8feb, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 19
+  m_fontSizeBase: 19
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18.14
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -1.6143188, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &681593514
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681593511}
+  m_CullTransparentMesh: 1
+--- !u!1 &687820807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 687820808}
+  - component: {fileID: 687820810}
+  - component: {fileID: 687820809}
+  m_Layer: 5
+  m_Name: MainText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &687820808
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687820807}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1302072158}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -66, y: -1.3816}
+  m_SizeDelta: {x: 606.793, y: 220.3165}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &687820809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687820807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "You\u2019ve lived on this ship for 13 years. Today\u2019s the anniversary
+    of your contract signing, not that it means anything... You\u2019ve still got
+    to wake up just the same and do the same job you do everyday. Still, it\u2019s
+    a milestone... \r\n\nThe ruins you\u2019re going to scrap today are from a battle
+    between the Zornians and the republic, so in addition to the normal dangers of
+    zero-friction welding, you\u2019ll have to worry about zorn bugs and decayed
+    sigils. It\u2019s time to head out and hear the brief from Zanik about the day
+    and see what you\u2019ll be tasked with. Your last little respite before heading
+    out into the darkness for another 36 hour shift.\r\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: d9c952fde30eb99469fc8b29e1cf8feb, type: 2}
+  m_sharedMaterial: {fileID: -4903461303436851361, guid: d9c952fde30eb99469fc8b29e1cf8feb, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 15
+  m_fontSizeBase: 15
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18.14
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -1.6143188, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &687820810
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687820807}
+  m_CullTransparentMesh: 1
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -134,6 +1702,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -158,8 +1727,8 @@ Camera:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -207,7 +1776,103 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1572339454
+--- !u!82 &963194229
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: eee229a578b82c74ea38fd9d69af54c9, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.202
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &1206415586
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -215,82 +1880,1211 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1572339455}
-  - component: {fileID: 1572339456}
-  m_Layer: 0
-  m_Name: triggerzone
+  - component: {fileID: 1206415587}
+  - component: {fileID: 1206415590}
+  - component: {fileID: 1206415589}
+  - component: {fileID: 1206415588}
+  - component: {fileID: 1206415591}
+  m_Layer: 5
+  m_Name: Prompt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1572339455
+--- !u!224 &1206415587
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206415586}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1540507482}
+  m_Father: {fileID: 1302072158}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -8.6022, y: -158.74521}
+  m_SizeDelta: {x: 929.4868, y: 63.5889}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1206415588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206415586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
+    m_PressedColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1206415589}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1896939290}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: StartNextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1206415589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206415586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d0a8a683fcdb1614580408b47270d31f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1206415590
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206415586}
+  m_CullTransparentMesh: 1
+--- !u!95 &1206415591
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206415586}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 49425cf99ff4de6489797fe4494a0f0f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1237182578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1237182579}
+  - component: {fileID: 1237182582}
+  - component: {fileID: 1237182581}
+  - component: {fileID: 1237182580}
+  m_Layer: 5
+  m_Name: nextEventButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1237182579
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237182578}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1609740342}
+  m_Father: {fileID: 1302072158}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -8.6022, y: -162.66}
+  m_SizeDelta: {x: 158.2167, y: 55.763}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1237182580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237182578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
+    m_PressedColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1237182581}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 587933333}
+        m_TargetAssemblyTypeName: TextController, Assembly-CSharp
+        m_MethodName: StartNextStory
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1237182581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237182578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1237182582
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237182578}
+  m_CullTransparentMesh: 1
+--- !u!1 &1260721441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1260721442}
+  - component: {fileID: 1260721444}
+  - component: {fileID: 1260721443}
+  m_Layer: 5
+  m_Name: controls.1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1260721442
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260721441}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 587933337}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -322, y: -180}
+  m_SizeDelta: {x: 139.737, y: 62.152}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1260721443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260721441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: left click to advance text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: d9c952fde30eb99469fc8b29e1cf8feb, type: 2}
+  m_sharedMaterial: {fileID: -4903461303436851361, guid: d9c952fde30eb99469fc8b29e1cf8feb, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 452984831
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.101960786}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 22
+  m_fontSizeBase: 22
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1260721444
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260721441}
+  m_CullTransparentMesh: 1
+--- !u!1 &1302072157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1302072158}
+  - component: {fileID: 1302072160}
+  - component: {fileID: 1302072159}
+  m_Layer: 5
+  m_Name: textParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1302072158
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302072157}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 681593512}
+  - {fileID: 687820808}
+  - {fileID: 1206415587}
+  - {fileID: 1344657492}
+  - {fileID: 438087742}
+  - {fileID: 1237182579}
+  m_Father: {fileID: 587933337}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1302072159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302072157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.5377358, g: 0.26269925, b: 0.24603951, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 05541f1438b1cbf4aa8c1127a967869a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1302072160
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302072157}
+  m_CullTransparentMesh: 1
+--- !u!1 &1344657491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1344657492}
+  - component: {fileID: 1344657494}
+  - component: {fileID: 1344657493}
+  m_Layer: 5
+  m_Name: DecodedPrompt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1344657492
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344657491}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1302072158}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -65, y: 177}
+  m_SizeDelta: {x: 606.793, y: 47.3742}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1344657493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344657491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\u201CNo, I am too far gone to be saved. You on the other hand, you still
+    have time, a chance to escape this life.\u201D"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: d9c952fde30eb99469fc8b29e1cf8feb, type: 2}
+  m_sharedMaterial: {fileID: -4903461303436851361, guid: d9c952fde30eb99469fc8b29e1cf8feb, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 1325400063
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.30588236}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 19.4
+  m_fontSizeBase: 19.4
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18.14
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -1.6143188, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1344657494
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344657491}
+  m_CullTransparentMesh: 1
+--- !u!1 &1540507481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1540507482}
+  - component: {fileID: 1540507484}
+  - component: {fileID: 1540507483}
+  m_Layer: 5
+  m_Name: prompt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1540507482
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540507481}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1206415587}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 579.176, y: 47.229}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1540507483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540507481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\u201Cdon\u2019t tell zanik!\u201D jan whisper screams at you when you
+    see her pet is lose\u201Cdon\u2019t tell zanik!\u201D jan whisper screams at
+    you when you see her pet is loset"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: ab2af4743ebd9874f8dcb44d4977e492, type: 2}
+  m_sharedMaterial: {fileID: -1072506599301451839, guid: ab2af4743ebd9874f8dcb44d4977e492, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 13.85
+  m_fontSizeBase: 19
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 12
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -1.6143188, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1540507484
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540507481}
+  m_CullTransparentMesh: 1
+--- !u!1 &1609740341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1609740342}
+  - component: {fileID: 1609740344}
+  - component: {fileID: 1609740343}
+  m_Layer: 5
+  m_Name: prompt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1609740342
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609740341}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1237182579}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 494, y: 59.614}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1609740343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609740341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Contine
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: afd44440ce578294da0bcd08d1891a78, type: 2}
+  m_sharedMaterial: {fileID: 2161655710560175011, guid: afd44440ce578294da0bcd08d1891a78, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 23.2
+  m_fontSizeBase: 23.2
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18.14
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 4.8
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -1.6143188, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1609740344
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609740341}
+  m_CullTransparentMesh: 1
+--- !u!1 &1669810252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1669810253}
+  - component: {fileID: 1669810256}
+  - component: {fileID: 1669810255}
+  - component: {fileID: 1669810254}
+  m_Layer: 5
+  m_Name: gameplayPrompt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1669810253
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669810252}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 587933337}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -138.438, y: 159.48027}
+  m_SizeDelta: {x: 476.726, y: 89.018}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1669810254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669810252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76f5426ab29ce3842b134f19b3f2dbee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FontTag: <font="CaviarDreams SDF">
+  speed: 0.05
+--- !u!114 &1669810255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669810252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\u201Cdon\u2019t tell Zanik!\u201D jan whisper screams at you as you watch
+    a six legged reptilian with bat wings scamper across the hallway."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: ab2af4743ebd9874f8dcb44d4977e492, type: 2}
+  m_sharedMaterial: {fileID: -1072506599301451839, guid: ab2af4743ebd9874f8dcb44d4977e492, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 25.55
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 20
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1669810256
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669810252}
+  m_CullTransparentMesh: 1
+--- !u!1 &1896939289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1896939291}
+  - component: {fileID: 1896939290}
+  - component: {fileID: 1896939292}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1896939290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896939289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcda5edfb36844546b5e6116d4b40169, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextLevel: 0
+  levelBuildIndices: 020000000300000004000000050000000600000007000000
+  textParent: {fileID: 1302072157}
+  textPrompt: {fileID: 1540507483}
+  GameplayPrompt: {fileID: 1669810255}
+  scrambleScript: {fileID: 0}
+  textScript: {fileID: 0}
+--- !u!4 &1896939291
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1572339454}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 81.72876, y: 46.225, z: 0}
-  m_LocalScale: {x: 0.54125, y: 0.54125, z: 0.54125}
+  m_GameObject: {fileID: 1896939289}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1572339456
-SpriteRenderer:
+--- !u!82 &1896939292
+AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1572339454}
+  m_GameObject: {fileID: 1896939289}
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 75fe480ef0decec42a90524e84c1eb66, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2113387723
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,7 +3116,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2113387725
 MonoBehaviour:
